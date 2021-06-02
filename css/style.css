@@ -69,7 +69,7 @@ hr {
   overflow: visible; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 5;
+  margin-top: 0;
   margin-bottom: 0.5rem; }
 
 p {
@@ -91,20 +91,7 @@ address {
   line-height: inherit; }
 
 ol,
-ul {
-     text-align: center;
-     margin: 0;
-     padding: 0;
-}
-
-li {
-     display: inline;
-     list-style: none;
-     margin-right: 10px;
-     padding: 5px 10px;
-     background: #fff;
-}
-
+ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem; }
@@ -399,10 +386,6 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto; }
-
-.img-fluid2 {
   max-width: 100%;
   height: auto; }
 
@@ -3516,7 +3499,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.5rem; }
 
 .navbar-collapse {
-  -ms-flex-preferred-size: 20%;
+  -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -3756,7 +3739,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1); }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(5, 1, 1, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.5); }
